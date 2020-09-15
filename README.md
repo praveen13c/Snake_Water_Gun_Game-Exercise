@@ -1,6 +1,4 @@
-# Snake_Water_Gun_Game-Exercise
-Snake, Water and Gun select one and computer select random . See who won !
-# # Exercise given by Harry from Code with Harry Youtube Channel (HarisAK)
+# Exercise given by Harry from Code with Harry Youtube Channel (HarisAK)
 # Coder - Praveen Singh Chauhan (Technology Video Network - Youtube Channel ,
 # GAMP Aaryawarti Films - Film Production & Youtube Channel)
 # Link of Youtube - https://www.youtube.com/TechnologyVideoNetwork ,
@@ -42,21 +40,18 @@ while count != 10:  # game run 10 times
         elif user_choice == "g":
             print('<>' * 20)
             print(f"Tie !!!  You select ' {g} ' and computer ' {computer_choice} ' ")
-
     elif user_choice == "s" and computer_choice == "Water":
         user_win += 1
         count += 1
         print('<>' * 20)
         print(f"You > {s} Computer > {computer_choice}")
         print(f"You Won  !!!  ")
-
     elif user_choice == "w" and computer_choice == "Gun":
         user_win += 1
         count += 1
         print('<>' * 20)
         print(f"[ You  > {w} ] | [ Computer  > {computer_choice} ]")
         print(f"You Won  !!!  ")
-
     elif user_choice == "g" and computer_choice == "Snake":
         user_win += 1
         count += 1
@@ -86,7 +81,6 @@ while count != 10:  # game run 10 times
         print("Please enter valid character only")
         print('<>' * 20)
         continue
-
 if user_win > computer_win:  # after game ends , its declare winner
     print("*" * 70)
     print(f"You won {user_win} times and Computer won {computer_win} times and Total Tie {tie}")
