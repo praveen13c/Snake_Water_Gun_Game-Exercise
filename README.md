@@ -1,6 +1,6 @@
 # Snake_Water_Gun_Game-Exercise
 Snake, Water and Gun select one and computer select random . See who won !
-# Exercise given by Harry from Code with Harry Youtube Channel (HarisAK)
+# # Exercise given by Harry from Code with Harry Youtube Channel (HarisAK)
 # Coder - Praveen Singh Chauhan (Technology Video Network - Youtube Channel ,
 # GAMP Aaryawarti Films - Film Production & Youtube Channel)
 # Link of Youtube - https://www.youtube.com/TechnologyVideoNetwork ,
@@ -12,8 +12,7 @@ Snake, Water and Gun select one and computer select random . See who won !
 # Programe Starts
 import random  # import random module which is built in
 
-# variables and assign values
-choice_list = ["Snake", "Water", "Gun"]
+choice_list = ["Snake", "Water", "Gun"]  # variables and assign values
 user_win = 0
 computer_win = 0
 count = 0
@@ -29,9 +28,9 @@ while count != 10:  # game run 10 times
     print("        Select your option ")
     user_choice = input(" S = Snake  | W = Water  | G = Gun  > ").lower()
     computer_choice = random.choice(choice_list)
-# condition defining here if statement
+
     if user_choice == "s" and computer_choice == "Snake" or user_choice == "w" and computer_choice == "Water" \
-            or user_choice == "g" and computer_choice == "Gun":
+            or user_choice == "g" and computer_choice == "Gun":  # condition defining here if statement
         count += 1
         tie += 1
         if user_choice == "s":
@@ -87,8 +86,8 @@ while count != 10:  # game run 10 times
         print("Please enter valid character only")
         print('<>' * 20)
         continue
-# after game ends , its declare winner
-if user_win > computer_win:
+
+if user_win > computer_win:  # after game ends , its declare winner
     print("*" * 70)
     print(f"You won {user_win} times and Computer won {computer_win} times and Total Tie {tie}")
     print(f"You WON the GAME !!!!  Total Win = {user_win}")
