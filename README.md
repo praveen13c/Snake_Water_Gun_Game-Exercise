@@ -1,7 +1,7 @@
 SNAKE WATER GUN GAME
 Brief = in childhood we , almost, all play the game like this or Seissor Papper Stone . 
 
-Exercise given by Harry from Code with Harry Youtube Channel (HarisAK)
+Exercise given by Harry from Code with Harry Youtube Channel (HarisAK)\n
 Coder - Praveen Singh Chauhan 
 
 My Youtube Channel - 
