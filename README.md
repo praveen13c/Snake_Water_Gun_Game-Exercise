@@ -1,4 +1,5 @@
-SNAKE WATER GUN GAME
+# SNAKE WATER GUN GAME
+
 Brief = in childhood we , almost, all play the game like this or Seissor Papper Stone . 
 
 Exercise given by Harry from Code with Harry Youtube Channel (HarisAK)\n
