@@ -78,17 +78,24 @@ while count != 10:  # game run 10 times
         print(f"Computer Won  !!! ")
     else:
         print('<>' * 20)
-        print("Please enter valid character only")
+        print("Error = Please enter valid character only")
         print('<>' * 20)
         continue
 if user_win > computer_win:  # after game ends , its declare winner
     print("*" * 70)
     print(f"You won {user_win} times and Computer won {computer_win} times and Total Tie {tie}")
-    print(f"You WON the GAME !!!!  Total Win = {user_win}")
+    print(f"'You' WON the GAME !!!!  Total Win = {user_win}")
     print("*" * 70)
-else:
+elif user_win < computer_win:
     print("*" * 70)
     print(f"You won {user_win} times and Computer won {computer_win} times and Total Tie {tie} ")
-    print(f"Computer WON the GAME !!!!!  Total Win = {computer_win}")
+    print(f"'Computer'WON the GAME !!!!!  Total Win = {computer_win}")
     print("*" * 70)
+elif user_win == computer_win:
+    print("*" * 70)
+    print(f"You won {user_win} times and Computer won {computer_win} times and Total Tie {tie} ")
+    print(f"'It's a 'TIE'  !!!!!  Computer = {computer_win} won equal times  You ={user_win} " )
+    print("*" * 70)
+
+
 print("!!! Game Ends !!!")
